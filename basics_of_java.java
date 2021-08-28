@@ -3,31 +3,31 @@
 // JAVA PRIMEIROS PASSOS
 public class App {    // É necessário colocar App, pois estamos em App.java
     public static void main(String[] args) {
-        //int meuint = 10;
+        int meuint = 10;
         
-        //float meufloat = 5.5f;
+        float meufloat = 5.5f;
         
-        //char meucaracter = 'D';
+        char meucaracter = 'D';
         
-        //boolean meubool = true;
+        boolean meubool = true;
         
-        //String meutexto = "Hello";
+        String meutexto = "Hello";
         
-        //System.out.println(meuint);
+        System.out.println(meuint);
         
-        //System.out.println(meufloat);
+        System.out.println(meufloat);
         
-        //System.out.println(meucaracter);
+        System.out.println(meucaracter);
         
-        //System.out.println(meubool);
+        System.out.println(meubool);
         
-        //System.out.println(meutexto);
+        System.out.println(meutexto);
 
         /* Para combinar texto
         usar o + caracter*/
         
-        //String name = "John";
-        //System.out.println("Hello" + name);
+        String name = "John";
+        System.out.println("Hello" + name);
 
         /* Tmbém é possível usar o + caracter para adicionar uma variável
         a outra variável*/
@@ -104,8 +104,8 @@ public class App {    // É necessário colocar App, pois estamos em App.java
 
         // Ampliando o Casting
         
-        //int MyInt = 9;
-        //double MyDouble = MyInt; // Casting automático
+        int MyInt = 9;
+        double MyDouble = MyInt; // Casting automático
 
         double MyDouble = 9.78d; 
         int MyInt = (int) MyDouble; // Casting manua: double para int
